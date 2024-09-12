@@ -1,4 +1,80 @@
-body {
+body{
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    /* overflow: hidden; */
+  }
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(91, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#nav{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: brown;
+  align-items: center;
+  border-radius: 0.5em;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 1em;
+}
+
+#logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+#subs{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: rgba(0, 255, 255, 0.196);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  
+  p{
+    color: black;
+  }
+  
+  .sub{
+    background-color: aliceblue;
+    padding: 0.5em;
+    border-radius: 1em;
+    width: 20em;
+  }
+  
+  .sub:hover{
+    background-color: rgb(59, 155, 155);
+    p{
+      color: aliceblue;
+    }
+  }
+
+#message{
+    text-align: center;
+}body {
     background-color: antiquewhite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
